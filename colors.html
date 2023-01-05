@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy E Metal Colors</title>
+</head>
+
+<style>
+    .title {
+        text-align: center;
+
+    }
+    .row{
+        margin: auto;
+    }
+    .box {
+        height: 40px;
+        width: 40px;
+        margin: auto;
+        margin-bottom: 5px;
+        margin-top: 2px;
+        border: 1px solid black;
+        
+    }
+    .inline {
+        text-align: center;
+        float: inline-end;
+        padding: 2px;
+    }
+    .border {
+        display:inline-block;
+        border: 2px solid black;
+        width: 15%;
+        margin: auto;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+        
+    }
+    .basics {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: auto;
+    }
+    .red {
+        background-color: rgb(107, 30, 12);
+    }
+    .brightred {
+        background-color: rgb(150, 15, 30);
+    }
+    .marine {
+        background-color: rgb(1, 59, 99);
+    }
+    .tan {
+        background-color: rgb(192, 163, 119);
+    }
+    .brown {
+        background-color: rgb(67, 66, 46);
+    }
+    .charcoal {
+        background-color: rgb(70, 83, 89);
+    }
+    .white {
+        background-color: rgb(223, 225, 220);
+    }
+    .ivory {
+        background-color: rgb(219, 217, 194);
+    }
+    .beige {
+        background-color: rgb(138, 139, 121);
+    }
+    .black {
+        background-color: rgb(16, 16, 16);
+    }
+    .burgundy {
+        background-color: rgb(58, 37, 44);
+    }
+    .navy {
+        background-color: rgb(33, 31, 52);
+    }
+    .evergreen {
+        background-color: rgb(13, 72, 52);
+    }
+    .silver {
+        background-color: rgb(147, 158, 154);
+    }
+
+</style>
+<body>
+    <div class="title basics">
+        <h1>Lazy E Modding Building Colors</h1>
+        <p>Make sure to have the building shader applied to the mesh/node that you want to be color changable.</p>
+        <p><i>Note: For the building shader, you need two UVs on said mesh.</i></p>
+        <p>Use the code provided in the xml, and repalce the "nodenamehere" with the node index/name of node that you want ot make color changable.</p>
+    </div>
+    <div class="basics">
+        <div class="row"></div>
+            <div class="border">
+                <div class="box red"></div>            
+                <div class="inline">
+                    <p>Red</p>
+                    <p><b>0.420	0.118	0.047</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box brightred"></div>            
+                <div class="inline">
+                    <p>Bright Red</p>
+                    <p><b>0.588	0.059	0.118</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box marine"></div>            
+                <div class="inline">
+                    <p>Marine</p>
+                    <p><b>0.004	0.231	0.388</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box tan"></div>            
+                <div class="inline">
+                    <p>Tan</p>
+                    <p><b>0.753	0.639	0.467</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box brown"></div>            
+                <div class="inline">
+                    <p>Brown</p>
+                    <p><b>0.263	0.259	0.180</b></p>
+                </div> 
+            </div>
+        </div>
+        <div class="basics">
+            <div class="row"></div>
+            <div class="border">
+                <div class="box charcoal"></div>            
+                <div class="inline">
+                    <p>Charcoal</p>
+                    <p><b>0.275	0.325	0.349</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box white"></div>            
+                <div class="inline">
+                    <p>White</p>
+                    <p><b>0.875	0.882	0.863</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box ivory"></div>            
+                <div class="inline">
+                    <p>Ivory</p>
+                    <p><b>0.859	0.851	0.761</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box beige"></div>            
+                <div class="inline">
+                    <p>Beige</p>
+                    <p><b>0.541	0.545	0.475</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box black"></div>            
+                <div class="inline">
+                    <p>Black</p>
+                    <p><b>0.063	0.063	0.063</b></p>
+                </div> 
+            </div>
+        </div>
+        <div class="basics">
+            <div class="row"></div>
+            <div class="border">
+                <div class="box burgundy"></div>            
+                <div class="inline">
+                    <p>Burgundy</p>
+                    <p><b>0.227	0.145	0.173</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box navy"></div>            
+                <div class="inline">
+                    <p>Navy</p>
+                    <p><b>0.129	0.122	0.204</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box evergreen"></div>            
+                <div class="inline">
+                    <p>Evergree</p>
+                    <p><b>0.051	0.282	0.204</b></p>
+                </div> 
+            </div>
+            <div class="border">
+                <div class="box silver"></div>            
+                <div class="inline">
+                    <p>Silver</p>
+                    <p><b>0.576	0.620	0.604</b></p>
+                </div> 
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="title basics">
+        <h2>Here is the xml code snippet that you need to add to your xml.</h2>
+        <script id="xml" type="text/xml">
+        	<colorable>
+                <nodes>
+                    <node node="0|0"/>
+                </nodes>
+                <colors>
+                    <color value="0.420	0.118	0.047"/> <!-- red -->
+                    <color value="0.588	0.059	0.118"/> <!-- Bright Red -->
+                    <color value="0.004	0.231	0.388"/> <!-- Marine -->
+                    <color value="0.753	0.639	0.467"/> <!-- Tan -->
+                    <color value="0.263	0.259	0.180"/> <!-- Brown -->
+                    <color value="0.275	0.325	0.349"/> <!-- Charcoal -->
+                    <color value="0.875	0.882	0.863"/> <!-- White -->
+                    <color value="0.859	0.851	0.761"/> <!-- Ivory -->
+                    <color value="0.541	0.545	0.475"/> <!-- Beige -->
+                    <color value="0.063	0.063	0.063"/> <!-- Black -->
+                    <color value="0.227	0.145	0.173"/> <!-- Burgundy -->
+                    <color value="0.129	0.122	0.204"/> <!-- Navy -->
+                    <color value="0.051	0.282	0.204"/> <!-- Evergreen -->
+                    <color value="0.576	0.620	0.604"/> <!-- Silver -->
+                </colors>
+            </colorable>
+        </script>
+        <script type="text/xml" src="../xmltext.txt"> </script>
+    </div>
+    </div>   
+</body>
+</html>
