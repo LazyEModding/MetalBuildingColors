@@ -1,0 +1,9 @@
+Lazy E Modding Builidng Colors for FS22
+
+Make sure to set the building shader up on your building, and properly do all the atributes needed to set it up.
+
+use the "colorable.xml" file code to add to your xml to add the colors to your mod. 
+
+If you already have a colorable section in the xml, you can use the colors from colors.html to match them to other buildings
+
+Color choices are based off Morton Builidngs Color Sheet
