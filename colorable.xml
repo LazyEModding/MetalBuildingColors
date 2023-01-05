@@ -1,21 +1,22 @@
-	<colorable>
-		<nodes>
-			<node node="NODEINDEXGOESHERE"/>
-		</nodes>
-		<colors>
+<colorable>
+	<nodes>
+		<node node="NODEINDEXGOESHERE"/>
+	</nodes>
+	<colors>
 			<color value="0.420 0.118 0.047"/> <!-- red -->
 			<color value="0.588 0.059 0.118"/> <!-- Bright Red -->
 			<color value="0.004 0.231 0.388"/> <!-- Marine -->
 			<color value="0.753 0.639 0.467"/> <!-- Tan -->
-			<color value="0.263	0.259 0.180"/> <!-- Brown -->
-			<color value="0.275	0.325 0.349"/> <!-- Charcoal -->
-			<color value="0.875	0.882 0.863"/> <!-- White -->
-			<color value="0.859	0.851 0.761"/> <!-- Ivory -->
-			<color value="0.541	0.545 0.475"/> <!-- Beige -->
-			<color value="0.063	0.063 0.063"/> <!-- Black -->
-			<color value="0.227	0.145 0.173"/> <!-- Burgundy -->
-			<color value="0.129	0.122 0.204"/> <!-- Navy -->
-			<color value="0.051	0.282 0.204"/> <!-- Evergreen -->
-			<color value="0.576	0.620 0.604"/> <!-- Silver -->
+			<color value="0.263 0.259 0.180"/> <!-- Brown -->
+			<color value="0.275 0.325 0.349"/> <!-- Charcoal -->
+			<color value="0.875 0.882 0.863"/> <!-- White -->
+			<color value="0.859 0.851 0.761"/> <!-- Ivory -->
+			<color value="0.541 0.545 0.475"/> <!-- Beige -->
+			<color value="0.063 0.063 0.063"/> <!-- Black -->
+			<color value="0.227 0.145 0.173"/> <!-- Burgundy -->
+			<color value="0.129 0.122 0.204"/> <!-- Navy -->
+			<color value="0.051 0.282 0.204"/> <!-- Evergreen -->
+			<color value="0.576 0.620 0.604"/> <!-- Silver -->
 		</colors>
-	</colorable
+
+</colorable
